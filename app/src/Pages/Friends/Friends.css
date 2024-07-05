@@ -1,0 +1,126 @@
+.friends-section {
+    height: 100%;
+}
+
+.invite-friend-section {
+    padding-bottom: 200px;
+}
+
+.invite-friend-details {
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 0, 76);
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+
+
+.invite-friend-details h3 {
+    font-size: 0.8rem;
+    color: white;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.friend-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.invite-bonus-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.invite-bonus-container p {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.invite-bonus-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px
+}
+
+.friend-title-container {
+    padding-top: 35px;
+    text-align: center;
+    color: white;
+}
+
+.friend-title-container h1 {
+    padding-bottom: 5px;
+}
+
+.friend-title-container p {
+    font-weight: 300;
+}
+
+.friend-table-header {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.invite-friend-link-section {
+    width: 90%;
+    margin: auto;
+}
+
+.invite-friend-link-container {
+    position: fixed;
+    bottom: 120px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+}
+
+.invite-friend-link {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-right: 5px;
+    background-color: #fc0f72;
+    height: 100%;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.invite-friend-link i {
+    padding-left: 10px;
+}
+
+.copy-to-clipboard {
+    background-color: #fc0f72;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.friend-not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 100px;
+}

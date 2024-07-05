@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+  font-family: "Rowdies", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input,
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background: radial-gradient(circle, #711294, #4e0865, #150017);
+}
+
+.desktop-version {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.desktop-version h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
